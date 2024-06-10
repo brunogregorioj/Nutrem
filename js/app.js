@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
     cardapio.eventos.init();
 })
 
@@ -10,7 +10,7 @@ var MEU_ENDERECO = null;
 var VALOR_CARRINHO = 0;
 var VALOR_ENTREGA = 7.5;
 
-var CELULAR_EMPRESA = '5517991234567';
+var CELULAR_EMPRESA = '5531998071900';
 
 cardapio.eventos = {
 
@@ -38,9 +38,9 @@ cardapio.metodos = {
         $.each(filtro, (i, e) => {
 
             let temp = cardapio.templates.item.replace(/\${img}/g, e.img)
-            .replace(/\${nome}/g, e.name)
-            .replace(/\${preco}/g, e.price.toFixed(2).replace('.', ','))
-            .replace(/\${id}/g, e.id)
+                .replace(/\${nome}/g, e.name)
+                .replace(/\${preco}/g, e.price.toFixed(2).replace('.', ','))
+                .replace(/\${id}/g, e.id)
 
             // botão ver mais foi clicado (12 itens)
             if (vermais && i >= 8 && i < 12) {
@@ -121,8 +121,8 @@ cardapio.metodos = {
                 else {
                     item[0].qntd = qntdAtual;
                     MEU_CARRINHO.push(item[0])
-                }      
-                
+                }
+
                 cardapio.metodos.mensagem('Item adicionado ao carrinho', 'green')
                 $("#qntd-" + id).text(0);
 
@@ -146,8 +146,7 @@ cardapio.metodos = {
         if (total > 0) {
             $(".botao-carrinho").removeClass('hidden');
             $(".container-total-carrinho").removeClass('hidden');
-        }
-        else {
+        } else {
             $(".botao-carrinho").addClass('hidden')
             $(".container-total-carrinho").addClass('hidden');
         }
@@ -162,8 +161,7 @@ cardapio.metodos = {
         if (abrir) {
             $("#modalCarrinho").removeClass('hidden');
             cardapio.metodos.carregarCarrinho();
-        }
-        else {
+        } else {
             $("#modalCarrinho").addClass('hidden');
         }
 
@@ -186,7 +184,7 @@ cardapio.metodos = {
             $("#btnEtapaResumo").addClass('hidden');
             $("#btnVoltar").addClass('hidden');
         }
-        
+
         if (etapa == 2) {
             $("#lblTituloEtapa").text('Endereço de entrega:');
             $("#itensCarrinho").addClass('hidden');
@@ -242,10 +240,10 @@ cardapio.metodos = {
             $.each(MEU_CARRINHO, (i, e) => {
 
                 let temp = cardapio.templates.itemCarrinho.replace(/\${img}/g, e.img)
-                .replace(/\${nome}/g, e.name)
-                .replace(/\${preco}/g, e.price.toFixed(2).replace('.', ','))
-                .replace(/\${id}/g, e.id)
-                .replace(/\${qntd}/g, e.qntd)
+                    .replace(/\${nome}/g, e.name)
+                    .replace(/\${preco}/g, e.price.toFixed(2).replace('.', ','))
+                    .replace(/\${id}/g, e.id)
+                    .replace(/\${qntd}/g, e.qntd)
 
                 $("#itensCarrinho").append(temp);
 
@@ -256,8 +254,7 @@ cardapio.metodos = {
 
             })
 
-        }
-        else {
+        } else {
             $("#itensCarrinho").html('<p class="carrinho-vazio"><i class="fa fa-shopping-bag"></i> Seu carrinho está vazio.</p>');
             cardapio.metodos.carregarValores();
         }
@@ -272,8 +269,7 @@ cardapio.metodos = {
         if (qntdAtual > 1) {
             $("#qntd-carrinho-" + id).text(qntdAtual - 1);
             cardapio.metodos.atualizarCarrinho(id, qntdAtual - 1);
-        }
-        else {
+        } else {
             cardapio.metodos.removerItemCarrinho(id)
         }
 
@@ -296,7 +292,7 @@ cardapio.metodos = {
 
         // atualiza o botão carrinho com a quantidade atualizada
         cardapio.metodos.atualizarBadgeTotal();
-        
+
     },
 
     // atualiza o carrinho com a quantidade atual
@@ -342,7 +338,7 @@ cardapio.metodos = {
         if (MEU_CARRINHO.length <= 0) {
             cardapio.metodos.mensagem('Seu carrinho está vazio.')
             return;
-        } 
+        }
 
         cardapio.metodos.carregarEtapa(2);
 
@@ -362,7 +358,7 @@ cardapio.metodos = {
 
             if (validacep.test(cep)) {
 
-                $.getJSON("https://viacep.com.br/ws/" + cep + "/json/?callback=?", function (dados) {
+                $.getJSON("https://viacep.com.br/ws/" + cep + "/json/?callback=?", function(dados) {
 
                     if (!("erro" in dados)) {
 
@@ -373,22 +369,19 @@ cardapio.metodos = {
                         $("#ddlUf").val(dados.uf);
                         $("#txtNumero").focus();
 
-                    }
-                    else {
+                    } else {
                         cardapio.metodos.mensagem('CEP não encontrado. Preencha as informações manualmente.');
                         $("#txtEndereco").focus();
                     }
 
                 })
 
-            }
-            else {
+            } else {
                 cardapio.metodos.mensagem('Formato do CEP inválido.');
                 $("#txtCEP").focus();
             }
 
-        }
-        else {
+        } else {
             cardapio.metodos.mensagem('Informe o CEP, por favor.');
             $("#txtCEP").focus();
         }
