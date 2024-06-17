@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nutrêm - Seja bem-vindo!</title>
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
 
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/fontawesome.css" />
@@ -33,10 +34,10 @@
                     <img src="./img/logo.png" width="160" class="img-logo" />
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
-                        <span class="navbar-toggler-icon">
-                            <i class="fas fa-bars"></i>
-                        </span>
-                    </button>
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars"></i>
+                    </span>
+                </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav ml-auto mr-auto wow fadeIn">
                         <li class="nav-item">
@@ -53,11 +54,11 @@
                         </li>
                     </ul>
                     <a class="btn btn-white btn-icon wow fadeIn" onclick="cardapio.metodos.abrirCarrinho(true)">
-                            Meu carrinho <span class="icon">
-                                <div class="container-total-carrinho badge-total-carrinho hidden">0</div>
-                                <i class="fa fa-shopping-cart"></i>
-                            </span>
-                        </a>
+                        Meu carrinho <span class="icon">
+                            <div class="container-total-carrinho badge-total-carrinho hidden">0</div>
+                            <i class="fa fa-shopping-cart"></i>
+                        </span>
+                    </a>
                 </div>
             </nav>
         </div>
@@ -68,23 +69,26 @@
             <div class="row">
                 <div class="col-12 col-lg-6 col-md-6 col-sm-12 col-one">
                     <div class="d-flex text-banner">
-                        <h1 class="wow fadeInLeft"><b>A escolha nova é a região <b class="color-primary">Serra da Canastra.</b></b>
+                        <h1 class="wow fadeInLeft"><b>A escolha nova é a região <b class="color-primary">Serra da
+                                    Canastra.</b></b>
                         </h1>
                         <p class="wow fadeInLeft delay-02s">
-                            Aproveite nossa seleção! Escolha os produtos artesanais que desejar e receba em sua casa de forma rápida e segura.
+                            Aproveite nossa seleção! Escolha os produtos artesanais que desejar e receba em sua casa de
+                            forma rápida e segura.
                         </p>
                         <div class="wow fadeIn delay-05s">
                             <a class="btn btn-yellow mt-4 mr-3">
-                                    Ver cardápio
-                                </a>
+                                Ver cardápio
+                            </a>
                             <a href="#" class="btn btn-white btn-icon-left mt-4" id="btnLigar">
                                 <span class="icon-left">
-                                        <i class="fa fa-phone"></i>
-                                    </span> (31) 99999-9999
+                                    <i class="fa fa-phone"></i>
+                                </span> (31) 99999-9999
                             </a>
                         </div>
                     </div>
-                    <a href="https://www.instagram.com/marlonlenoir/" target="_blank" class="btn btn-sm btn-white btn-social mt-4 mr-3 wow fadeIn delay-05s">
+                    <a href="https://www.instagram.com/marlonlenoir/" target="_blank"
+                        class="btn btn-sm btn-white btn-social mt-4 mr-3 wow fadeIn delay-05s">
                         <i class="fab fa-instagram"></i>
                     </a>
                     <a class="btn btn-sm btn-white btn-social mt-4 mr-3 wow fadeIn delay-05s">
@@ -102,10 +106,10 @@
                     </div>
                     <div class="card card-case wow fadeInRight delay-07s">
                         "Entrega rápida e funcionários simpáticos.
-                        <br>A comida chegou quente e <br> muito saborosa!"
+                        <br>Me lembrou doce que minha vó fazia e <br> muito saboroso!"
                         <span class="card-case-name">
-                                <b>Fulano de Tal</b>
-                            </span>
+                            <b>Marlon Lenoir</b>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -128,13 +132,13 @@
 
                 <div class="col-12 col-lg-4 col-md-4 col-sm-12 col-one mb-5 wow fadeInUp">
                     <div class="card-icon text-center">
-                        <img src="./img/icone-pedido.svg" width="150" />
+                        <img src="./img/icone-pedido.svg" width="300" />
                     </div>
                     <div class="card-text text-center mt-3">
                         <p><b>Viaje no conforto de casa</b></p>
                         <span>
-                               Você só precisa de alguns cliques para conhecer o mundo.
-                            </span>
+                            Você só precisa de alguns cliques para conhecer os melhores produtos artesanais.
+                        </span>
                     </div>
                 </div>
 
@@ -145,8 +149,8 @@
                     <div class="card-text text-center mt-3">
                         <p><b>Qualquer canto do Brasil a um clique</b></p>
                         <span>
-                                Conheça a culinária de todo o Brasil na palma da sua mão.
-                            </span>
+                            Conheça a culinária artesanal de todo o Brasil na palma da sua mão.
+                        </span>
                     </div>
                 </div>
 
@@ -157,8 +161,8 @@
                     <div class="card-text text-center mt-3">
                         <p><b>Melhor qualidade</b></p>
                         <span>
-                                Não só a rapidez na entrega, a qualidade também é o nosso forte.
-                            </span>
+                            Não só a rapidez na entrega, a qualidade também é o nosso forte.
+                        </span>
                     </div>
                 </div>
 
@@ -181,22 +185,28 @@
                 </div>
 
                 <div class="col-12 col-one container-menu wow fadeInUp">
-                    <a id="menu-burgers" class="btn btn-white btn-sm mr-3 active" onclick="cardapio.metodos.obterItensCardapio('burgers')">
+                    <a id="menu-burgers" class="btn btn-white btn-sm mr-3 active"
+                        onclick="cardapio.metodos.obterItensCardapio('burgers')">
                         <i class="fas fa-hamburger"></i>&nbsp; Burgers
                     </a>
-                    <a id="menu-pizzas" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('pizzas')">
+                    <a id="menu-pizzas" class="btn btn-white btn-sm mr-3"
+                        onclick="cardapio.metodos.obterItensCardapio('pizzas')">
                         <i class="fas fa-pizza-slice"></i>&nbsp; Pizzas
                     </a>
-                    <a id="menu-churrasco" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('churrasco')">
+                    <a id="menu-churrasco" class="btn btn-white btn-sm mr-3"
+                        onclick="cardapio.metodos.obterItensCardapio('churrasco')">
                         <i class="fas fa-drumstick-bite"></i>&nbsp; Churrasco
                     </a>
-                    <a id="menu-steaks" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('steaks')">
+                    <a id="menu-steaks" class="btn btn-white btn-sm mr-3"
+                        onclick="cardapio.metodos.obterItensCardapio('steaks')">
                         <i class="fas fa-bacon"></i>&nbsp; Steaks
                     </a>
-                    <a id="menu-bebidas" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('bebidas')">
+                    <a id="menu-bebidas" class="btn btn-white btn-sm mr-3"
+                        onclick="cardapio.metodos.obterItensCardapio('bebidas')">
                         <i class="fas fa-cocktail"></i>&nbsp; Bebidas
                     </a>
-                    <a id="menu-sobremesas" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('sobremesas')">
+                    <a id="menu-sobremesas" class="btn btn-white btn-sm mr-3"
+                        onclick="cardapio.metodos.obterItensCardapio('sobremesas')">
                         <i class="fas fa-ice-cream"></i>&nbsp; Sobremesas
                     </a>
                 </div>
@@ -211,8 +221,8 @@
 
                 <div class="col-12 col-one text-center wow fadeInUp">
                     <a id="btnVerMais" class="btn btn-white btn-sm" onclick="cardapio.metodos.verMais()">
-                            Ver mais
-                        </a>
+                        Ver mais
+                    </a>
                 </div>
 
             </div>
@@ -244,7 +254,7 @@
                             <div class="container-dados-depoimento">
                                 <div class="imagem-depoimento"></div>
                                 <div>
-                                    <p class="nome-depoimento"><b>Diego Pereira</b></p>
+                                    <p class="nome-depoimento"><b>Samuel Rocha</b></p>
                                     <p class="nota-depoimento">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -257,8 +267,9 @@
                             <p class="texto-depoimento">
                                 <i class="fas fa-quote-left"></i>
                                 <span>
-                                        Muito bom, recomendo demais! Nunca tinha comido goiabada cascão e amei a experiência.
-                                    </span>
+                                    Excelente! Recomendo demais! Nunca tinha experimentado queijo artesanal da Serra da
+                                    Canastra e amei a experiência.
+                                </span>
                                 <i class="fas fa-quote-right"></i>
                             </p>
                         </div>
@@ -267,7 +278,7 @@
                             <div class="container-dados-depoimento">
                                 <div class="imagem-depoimento"></div>
                                 <div>
-                                    <p class="nome-depoimento"><b>Ana Beatriz</b></p>
+                                    <p class="nome-depoimento"><b>Ana Vitória </b></p>
                                     <p class="nota-depoimento">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -280,9 +291,11 @@
                             <p class="texto-depoimento">
                                 <i class="fas fa-quote-left"></i>
                                 <span>
-                                        Um jantar perfeito do começo ao fim. Comida, experiência, serviço...
-                                        foi tão maravilhoso que fomos dois dias seguidos - fato inédito para mim em uma viagem.
-                                    </span>
+                                    Um deleite gastronômico do começo ao fim. Produtos artesanais, experiência cultural,
+                                    atendimento impecável...
+                                    foi tão incrível que acabei adquirindo os produtos de duas regiões diferentes - algo
+                                    inédito para mim em uma única plataforma.
+                                </span>
                                 <i class="fas fa-quote-right"></i>
                             </p>
                         </div>
@@ -291,7 +304,7 @@
                             <div class="container-dados-depoimento">
                                 <div class="imagem-depoimento"></div>
                                 <div>
-                                    <p class="nome-depoimento"><b>João Guilherme</b></p>
+                                    <p class="nome-depoimento"><b>Bruno Henrique</b></p>
                                     <p class="nota-depoimento">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
@@ -304,18 +317,22 @@
                             <p class="texto-depoimento">
                                 <i class="fas fa-quote-left"></i>
                                 <span>
-                                        A comida estava excelente e o serviço gentil nos surpreendeu!
-                                        Dica: reserve umas 3 horas para ter uma experiência incrível.
-                                    </span>
+                                    Os produtos artesanais eram incríveis e o atendimento gentil nos surpreendeu!
+                                    Recomendo reservar um tempo suficiente para desfrutar plenamente dessa experiência
+                                    única.
+                                </span>
                                 <i class="fas fa-quote-right"></i>
                             </p>
                         </div>
 
                     </div>
 
-                    <a id="btnDepoimento-1" class="btn btn-sm btn-white btn-social wow fadeIn mr-3 active" onclick="cardapio.metodos.abrirDepoimento(1)">1</a>
-                    <a id="btnDepoimento-2" class="btn btn-sm btn-white btn-social wow fadeIn mr-3" onclick="cardapio.metodos.abrirDepoimento(2)">2</a>
-                    <a id="btnDepoimento-3" class="btn btn-sm btn-white btn-social wow fadeIn" onclick="cardapio.metodos.abrirDepoimento(3)">3</a>
+                    <a id="btnDepoimento-1" class="btn btn-sm btn-white btn-social wow fadeIn mr-3 active"
+                        onclick="cardapio.metodos.abrirDepoimento(1)">1</a>
+                    <a id="btnDepoimento-2" class="btn btn-sm btn-white btn-social wow fadeIn mr-3"
+                        onclick="cardapio.metodos.abrirDepoimento(2)">2</a>
+                    <a id="btnDepoimento-3" class="btn btn-sm btn-white btn-social wow fadeIn"
+                        onclick="cardapio.metodos.abrirDepoimento(3)">3</a>
 
                 </div>
 
@@ -333,17 +350,21 @@
                         <div class="row">
 
                             <div class="col-12 col-lg-7 col-md-7 col-sm-12">
-                                <span class="hint-title"><b>Reserva</b></span>
+                                <span class="hint-title"><b>Um pouco mais sobre o Nutrêm</b></span>
                                 <h1 class="title">
                                     <b>Quer reservar um horário?</b>
                                 </h1>
                                 <p class="pr-5">
-                                    Mande uma mensagem clicando no botão abaixo
-                                    <br> Reserve sua data e horário de forma simples e rápida.
+                                    O Nutrêm - Sabores Regionais é um site dedicado a promover produtos alimentícios
+                                    artesanais de diferentes regiões do país em períodos rotativos, destacando a
+                                    diversidade cultural e gastronômica. Você também pode reservar seus produtos
+                                    favoritos através do WhatsApp, garantindo uma experiência personalizada e
+                                    conveniente, culminando em eventos especiais ao final de cada ciclo.
                                 </p>
-                                <a class="btn btn-yellow mt-4 wow fadeIn delay-05s" href="#" id="btnReserva" target="_blank">
-                                        Fazer reserva
-                                    </a>
+                                <a class="btn btn-yellow mt-4 wow fadeIn delay-05s" href="#" id="btnReserva"
+                                    target="_blank">
+                                    Fazer reserva
+                                </a>
                             </div>
 
                             <div class="col-5 no-mobile">
@@ -377,7 +398,8 @@
                 </div>
 
                 <div class="col-12 col-lg-3 col-md-3 col-sm-12 col-one container-redes-footer wow fadeIn">
-                    <a href="https://www.instagram.com/marlonlenoir/" target="_blank" class="btn btn-sm btn-white btn-social mt-4 mr-3 wow fadeIn delay-05s">
+                    <a href="https://www.instagram.com/marlonlenoir/" target="_blank"
+                        class="btn btn-sm btn-white btn-social mt-4 mr-3 wow fadeIn delay-05s">
                         <i class="fab fa-instagram"></i>
                     </a>
                     <a class="btn btn-sm btn-white btn-social mr-3">
@@ -398,8 +420,8 @@
         <div class="m-header">
             <div class="container">
                 <a class="btn btn-white btn-sm float-right" onclick="cardapio.metodos.abrirCarrinho(false)">
-                        Fechar
-                    </a>
+                    Fechar
+                </a>
                 <div class="etapas">
                     <div class="etapa etapa1 active">1</div>
                     <div class="etapa etapa2">2</div>
@@ -471,35 +493,35 @@
                         <div class="form-group">
                             <label>UF:</label>
                             <select id="ddlUf" class="form-control">
-                                    <option value="-1">...</option>
-                                    <option value="AC">AC</option>
-                                    <option value="AL">AL</option>
-                                    <option value="AP">AP</option>
-                                    <option value="AM">AM</option>
-                                    <option value="BA">BA</option>
-                                    <option value="CE">CE</option>
-                                    <option value="DF">DF</option>
-                                    <option value="ES">ES</option>
-                                    <option value="GO">GO</option>
-                                    <option value="MA">MA</option>
-                                    <option value="MT">MT</option>
-                                    <option value="MS">MS</option>
-                                    <option value="MG">MG</option>
-                                    <option value="PA">PA</option>
-                                    <option value="PB">PB</option>
-                                    <option value="PR">PR</option>
-                                    <option value="PE">PE</option>
-                                    <option value="PI">PI</option>
-                                    <option value="RJ">RJ</option>
-                                    <option value="RN">RN</option>
-                                    <option value="RS">RS</option>
-                                    <option value="RO">RO</option>
-                                    <option value="RR">RR</option>
-                                    <option value="SC">SC</option>
-                                    <option value="SP">SP</option>
-                                    <option value="SE">SE</option>
-                                    <option value="TO">TO</option>
-                                </select>
+                                <option value="-1">...</option>
+                                <option value="AC">AC</option>
+                                <option value="AL">AL</option>
+                                <option value="AP">AP</option>
+                                <option value="AM">AM</option>
+                                <option value="BA">BA</option>
+                                <option value="CE">CE</option>
+                                <option value="DF">DF</option>
+                                <option value="ES">ES</option>
+                                <option value="GO">GO</option>
+                                <option value="MA">MA</option>
+                                <option value="MT">MT</option>
+                                <option value="MS">MS</option>
+                                <option value="MG">MG</option>
+                                <option value="PA">PA</option>
+                                <option value="PB">PB</option>
+                                <option value="PR">PR</option>
+                                <option value="PE">PE</option>
+                                <option value="PI">PI</option>
+                                <option value="RJ">RJ</option>
+                                <option value="RN">RN</option>
+                                <option value="RS">RS</option>
+                                <option value="RO">RO</option>
+                                <option value="RR">RR</option>
+                                <option value="SC">SC</option>
+                                <option value="SP">SP</option>
+                                <option value="SE">SE</option>
+                                <option value="TO">TO</option>
+                            </select>
                         </div>
                     </div>
 
@@ -559,18 +581,20 @@
                 </div>
 
                 <a onclick="cardapio.metodos.carregarEndereco()" class="btn btn-yellow float-right" id="btnEtapaPedido">
-                        Continuar
-                    </a>
-                <a onclick="cardapio.metodos.resumoPedido()" class="btn btn-yellow float-right hidden" id="btnEtapaEndereco">
-                        Revisar pedido
-                    </a>
+                    Continuar
+                </a>
+                <a onclick="cardapio.metodos.resumoPedido()" class="btn btn-yellow float-right hidden"
+                    id="btnEtapaEndereco">
+                    Revisar pedido
+                </a>
                 <a href="#" class="btn btn-yellow float-right hidden" id="btnEtapaResumo" target="_blank">
-                        Enviar pedido
-                    </a>
+                    Enviar pedido
+                </a>
 
-                <a onclick="cardapio.metodos.voltarEtapa()" class="btn btn-white float-right mr-3 hidden" id="btnVoltar">
-                        Voltar
-                    </a>
+                <a onclick="cardapio.metodos.voltarEtapa()" class="btn btn-white float-right mr-3 hidden"
+                    id="btnVoltar">
+                    Voltar
+                </a>
 
             </div>
         </div>
