@@ -1,5 +1,5 @@
 
-<img src="/img/logo.png" alt="Logo do Sabores Regionais" width="50%">
+<img src="/img/logo.png" alt="Logo do Sabores Regionais" width="70%">
 
 # Nutrêm - Sabores Regionais
 
