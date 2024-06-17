@@ -1,5 +1,5 @@
 var MENU = {
-    "churrasco": [
+    /* "churrasco": [
         {
             "id": "ribs-brisket-and-burnt-ends",
             "img": "./img/cardapio/churrasco/joes-kc-ribs-brisket-and-burnt-ends.6710e994980e485e6441b794717ad6fb.jpg",
@@ -85,7 +85,7 @@ var MENU = {
             "price": 269
         }
     ],
-    "burgers": [
+     "burgers": [
         {
             "id": "the-gramercy-tavern-burger-4-pack",
             "img": "./img/cardapio/burguers/Gramercy-Tavern-Burger-and-Kielbasa-Kit-6.4.21-72ppi-1x1-15.jpg",
@@ -170,30 +170,30 @@ var MENU = {
             "dsc": "Gramercy Tavern Burger + Kielbasa Combo",
             "price": 149
         }
-    ],
+    ], */
     "sobremesas": [
         {
             "id": "15259-german-chocolate-killer-brownie-tin-pack",
-            "img": "./img/cardapio/sobremesas/german-chocolate-killer-brownie-tin-pack.5ebc34160f28767a9d94c4da2e04c4b9.jpg",
-            "name": "Killer Brownie®",
-            "dsc": "German Chocolate Killer Brownie®",
+            "img": "https://http2.mlstatic.com/D_NQ_NP_964562-MLA69821629942_062023-O.webp",
+            "name": "Paçoca Cremosa Gourmet",
+            "dsc": "Paçoca Cremosa Gourmet Serra Da Canastra Barra 510 Gramas",
             "price": 39.99
         },
         {
             "id": "jacques-world-famous-chocolate-chip-cookies",
-            "img": "./img/cardapio/sobremesas/jacques-world-famous-chocolate-chip-cookies-6-pack.2217a14c443602493bba88aa9335319a.jpg",
-            "name": "Jacques Torres Chocolate",
-            "dsc": "Jacques' World Famous Chocolate Chip Cookies - 6 Pack",
-            "price": 39.95
+            "img": "https://vimilk.com.br/wp-content/uploads/2023/04/docedel-300x300.png",
+            "name": "Doce de Leite - Raspas de Limão",
+            "dsc": "Doce de Leite Vimilk 400g - Raspas de Limão",
+            "price": 50
         },
         {
             "id": "luigis-original-cannoli-pie",
-            "img": "./img/cardapio/sobremesas/original-cannoli-pie.4cb5b9ba82f57b69b90765fd9f07aa1a.jpg",
-            "name": "The Cannoli Pie Company",
-            "dsc": "Original Cannoli Pie",
-            "price": 69
+            "img": "https://http2.mlstatic.com/D_NQ_NP_958036-MLB50541768819_072022-O.webp",
+            "name": "Goiabada Cascão Cremosa Zélia Light",
+            "dsc": "Goiabada Cascão Cremosa Zélia Light 400g | Artesanal",
+            "price": 43
         },
-        {
+       /*  {
             "id": "sea-salted-caramel-swirl-cheesecake",
             "img": "./img/cardapio/sobremesas/sea-salted-caramel-swirl-cheesecake.e2825335433fb7a272a5d77649a6849e.jpg",
             "name": "Cotton Blues Cheesecake Company",
@@ -255,31 +255,31 @@ var MENU = {
             "name": "Jacques Torres Chocolate",
             "dsc": "Jacques' World Famous Chocolate Chip Cookies - 12 Pack",
             "price": 69.95
-        }
-    ],
+        } */
+    ], 
     "bebidas": [
         {
             "id": "hong-kong-boba-tea-kit-for-6",
-            "img": "./img/cardapio/bebidas/hong-kong-boba-tea-kit-for-6.63841de36d8e5edfafa13023fc303285.jpg",
-            "name": "New Territories",
-            "dsc": "Hong Kong Boba Tea Kit for 6",
-            "price": 59
+            "img": "https://www.goomer.app/webmenu/restaurante-velho-chico-sao-roque-de-minas/product/7340258/picture/large/230426212441",
+            "name": "Vinho Primeira Estrada",
+            "dsc": "Vinho tinto seco. Nacional, Região: Minas Gerais",
+            "price": 240
         },
         {
             "id": "guys-caliente-margaritas-for-12",
-            "img": "./img/cardapio/bebidas/guys-caliente-margaritas-for-12.ca8c6bc06b8f1039549385ffcebc749d.jpg",
-            "name": "Guy Fieri",
-            "dsc": "Guy's Caliente Margaritas for 12",
+            "img": "https://http2.mlstatic.com/D_NQ_NP_949269-MLU74144025626_012024-O.webp",
+            "name": "Cachaça Ouro Vale Da Canastra",
+            "dsc": "Cachaça Ouro Vale Da Canastra 670ml - Serra Da Canastra",
             "price": 69
         },
         {
             "id": "woodford-reserve-mint-julep-syrup",
-            "img": "./img/cardapio/bebidas/woodford-reserve-mint-julep-syrup.ef523ac7cbae5f4aba6b058207f490d2.jpg",
-            "name": "Woodford Reserve",
-            "dsc": "Woodford Reserve Mint Julep Syrup",
-            "price": 39
+            "img": "https://images.tcdn.com.br/img/img_prod/1282640/90_cafe_canasgeado_serra_da_canastra_500g_moido_231_4_bad1ab46f696880e94c6f076e1477588.jpg",
+            "name": "Café Canasgeado Serra da Canastra",
+            "dsc": "Café Canasgeado Serra da Canastra 500g - Moído",
+            "price": 60
         },
-        {
+        /* {
             "id": "new-orleans-hurricane-mix",
             "img": "./img/cardapio/bebidas/new-orleans-hurricane-mix.4613584fc65cb0787024dd24d2a8f4b3.jpg",
             "name": "Franco's Hurricane Mix",
@@ -341,38 +341,38 @@ var MENU = {
             "name": "Grady's Cold Brew",
             "dsc": "NOLA Cold Brew Concentrate Bag-in-Box",
             "price": 40
-        }
+        } */
     ],
     "pizzas": [
         {
             "id": "2-lou-malnatis-deep-dish-pizzas",
-            "img": "./img/cardapio/pizzas/2-lou-malnatis-deep-dish-pizzas.bf0fe065d251a9cca3925b269d443a27.jpg",
-            "name": "Lou Malnati's Pizza",
-            "dsc": "2 Lou Malnati's Deep Dish Pizzas",
-            "price": 67.99
+            "img": "https://images.tcdn.com.br/img/img_prod/1282640/queijo_canastra_meia_cura_1kg_7_2_f92cecbfd54da985a31851d5ca6cf713.jpg",
+            "name": "Queijo Canastra Meia Cura 1kg",
+            "dsc": "Queijo Canastra Meia Cura 1kg",
+            "price": 99
         },
         {
             "id": "23699-choose-your-own-thin-crust-pizza-4-pack",
-            "img": "./img/cardapio/pizzas/choose-your-own-thin-crust-pizza-4-pack.b928a2008eab50c65dc87e59b5952190.jpg",
-            "name": "Bartolini's",
-            "dsc": "Choose Your Own Thin Crust Pizza - 4 Pack",
-            "price": 139
+            "img": "https://images.tcdn.com.br/img/img_prod/1282640/queijo_canastra_do_reinaldo_500g_premiado_meia_peca_103_2_ee0df9b5ecd39c0807a0b9fe889715e4.jpg",
+            "name": "Queijo Canastra do Reinaldo 500g",
+            "dsc": "Queijo Canastra do Reinaldo 500g",
+            "price": 95
         },
         {
             "id": "choose-your-own-new-haven-style-pizza-6-pack",
-            "img": "./img/cardapio/pizzas/choose-your-own-new-haven-style-pizza-6-pack.ab82828afc6172cdd4017556c15e36dd.jpg",
-            "name": "Zuppardi's Apizza",
-            "dsc": "New Haven-Style Pizza - 6 Pack (Choose Your Own)",
-            "price": 79
+            "img": "https://images.tcdn.com.br/img/img_prod/1282640/copa_lombo_em_fatias_100g_223_1_d7b84cbdf238204b7519a0ec4724e764.jpg",
+            "name": "Copa Lombo em Fatias - 100g",
+            "dsc": "Copa Lombo em Fatias - 100g",
+            "price": 35
         },
         {
             "id": "6-lou-malnatis-deep-dish-pizzas",
-            "img": "./img/cardapio/pizzas/6-lou-malnatis-deep-dish-pizzas.f59993181da5d295668c8a6fb856055e.jpg",
-            "name": "Lou Malnati's Pizza",
-            "dsc": "6 Lou Malnati's Deep Dish Pizzas",
-            "price": 116.99
+            "img": "https://images.tcdn.com.br/img/img_prod/1282640/salame_lombo_defumado_vila_caipira_430g_217_4_95c9df01536b5c3f1db759658b24868b.jpg",
+            "name": "Salame Lombo Defumado Vila Caipira 430g",
+            "dsc": "Salame Lombo Defumado Vila Caipira 430g",
+            "price": 35
         },
-        {
+        /* {
             "id": "wood-fired-pizzas-best-seller-4-pack",
             "img": "./img/cardapio/pizzas/wood-fired-pizzas-best-seller-4-pack.1653bb05922ba153ac178f8365d27f6d.jpg",
             "name": "Pizzeria Bianco",
@@ -427,31 +427,31 @@ var MENU = {
             "name": "The Columbia Inn",
             "dsc": "Plain Thin Crust Pizza - 4 Pack",
             "price": 79
-        }
+        } */
     ],
     "steaks": [
         {
             "id": "california-reserve-filet-mignon-steaks-gift-box",
-            "img": "./img/cardapio/steaks/california-reserve-filet-mignon-steaks-gift-box.bf226e317aad85f47897ae7e325f790d.jpg",
-            "name": "Flannery Beef",
-            "dsc": "California Reserve Filet Mignon Steaks Gift Box",
-            "price": 129
+            "img": "https://images.tcdn.com.br/img/img_prod/1282640/90_pequi_em_conserva_590g_135_3_5f9360faca4654ec63dfa058b3be813d.jpg" ,
+            "name": "Pequi em Conserva",
+            "dsc": "California Reserve Filet Mignon Steaks Gift BoxPequi em Conserva 590g | Artesanal",
+            "price": 43
         },
         {
             "id": "steaks-and-cakes-date-night-dinner-for-2",
-            "img": "./img/cardapio/steaks/valentines-steaks-and-cakes-dinner-for-2.0c63dab635eed46209455dc33cd25ea8.jpg",
-            "name": "Chesapeake Bay Gourmet",
-            "dsc": "Steaks and Cakes Date Night Dinner for 2",
-            "price": 129
+            "img": "https://images.tcdn.com.br/img/img_prod/1282640/90_jilo_mini_em_conserva_500g_105_1_83a717fe3d6df319ae79fe6536ba7b4c.jpg",
+            "name": "Jiló Mini em Conserva",
+            "dsc": "Jiló Mini em Conserva 500g | Artesanal",
+            "price": 38
         },
         {
             "id": "Prime-holiday-steak-sampler-for-10-12",
-            "img": "./img/cardapio/steaks/holiday-sampler-9-pack.2de75ca80282ffe9d064eb757ff7a5a1.jpg",
-            "name": "Saltbrick Prime",
-            "dsc": "Chef Matt's Steak Sampler for 10-12",
-            "price": 179
+            "img": "https://images.tcdn.com.br/img/img_prod/1282640/pimenta_malagueta_em_conserva_520g_157_1_e7789ce9f77b3305a4f468461174bf08.jpg",
+            "name": "Pimenta Malagueta em Conserva 520g",
+            "dsc": "Pimenta Malagueta em Conserva 520g",
+            "price": 36
         },
-        {
+       /*  {
             "id": "bone-in-rib-steak",
             "img": "./img/cardapio/steaks/bone-in-rib-steak.b13d9d4233035767605f0de9acdce1ab.jpg",
             "name": "Old Homestead Steakhouse",
@@ -513,6 +513,6 @@ var MENU = {
             "name": "Perini Ranch Steakhouse",
             "dsc": "Mesquite Smoked Peppered Beef Tenderloin",
             "price": 165
-        }
+        } */
     ]
 }
