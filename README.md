@@ -1,11 +1,11 @@
 
-![JavaScript para web: crie páginas dinâmicas](/img/logo.png)
+<img src="/img/logo.png" alt="Logo do Sabores Regionais" width="50%">
 
 # Nutrêm - Sabores Regionais
 
 O **Nutrêm** - **Sabores Regionais** é um site dedicado a promover produtos alimentícios artesanais de diferentes regiões do país em períodos rotativos, destacando a diversidade cultural e gastronômica e culminando em eventos especiais ao final de cada ciclo.
 
-<img src="/img/ImgProjeto.png" alt="Imagem do Sabores Regionais" width="50%">
+<img src="/img/ImgProjeto.png" alt="Imagem do Sabores Regionais" width="70%">
 
 ## 🔨 Ideia Do Projeto:
 
