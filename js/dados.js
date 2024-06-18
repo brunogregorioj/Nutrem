@@ -84,37 +84,37 @@ var MENU = {
             "dsc": "Best of Texas BBQ Combo - Serves 14",
             "price": 269
         }
-    ],
+    ],*/
      "burgers": [
         {
-            "id": "the-gramercy-tavern-burger-4-pack",
-            "img": "./img/cardapio/burguers/Gramercy-Tavern-Burger-and-Kielbasa-Kit-6.4.21-72ppi-1x1-15.jpg",
-            "name": "Gramercy Tavern",
-            "dsc": "The Gramercy Tavern Burger - 4 Pack",
+            "id": "2-lou-malnatis-deep-dish-pizzas",
+            "img": "https://images.tcdn.com.br/img/img_prod/1282640/queijo_canastra_meia_cura_1kg_7_2_f92cecbfd54da985a31851d5ca6cf713.jpg",
+            "name": "Queijo Canastra Meia Cura 1kg",
+            "dsc": "Queijo Canastra Meia Cura 1kg",
             "price": 99
         },
         {
-            "id": "shake-shack-shackburger-8-pack",
-            "img": "./img/cardapio/burguers/shake-shack-shackburger-8-pack.973a5e26836ea86d7e86a327becea2b0.jpg",
-            "name": "Shake Shack",
-            "dsc": "Shake Shack ShackBurger® - 8 Pack",
-            "price": 49
+            "id": "23699-choose-your-own-thin-crust-pizza-4-pack",
+            "img": "https://images.tcdn.com.br/img/img_prod/1282640/queijo_canastra_do_reinaldo_500g_premiado_meia_peca_103_2_ee0df9b5ecd39c0807a0b9fe889715e4.jpg",
+            "name": "Queijo Canastra do Reinaldo 500g",
+            "dsc": "Queijo Canastra do Reinaldo 500g",
+            "price": 95
         },
         {
-            "id": "gotts-cheeseburger-kit-for-4",
-            "img": "./img/cardapio/burguers/gotts-complete-cheeseburger-kit-for-4.7bdc74104b193427b3fe6eae39e05b5e.jpg",
-            "name": "Gott's Roadside",
-            "dsc": "Gott's Complete Cheeseburger Kit for 4",
-            "price": 99
+            "id": "choose-your-own-new-haven-style-pizza-6-pack",
+            "img": "https://images.tcdn.com.br/img/img_prod/1282640/copa_lombo_em_fatias_100g_223_1_d7b84cbdf238204b7519a0ec4724e764.jpg",
+            "name": "Copa Lombo em Fatias - 100g",
+            "dsc": "Copa Lombo em Fatias - 100g",
+            "price": 35
         },
         {
-            "id": "le-big-matt-kit-for-6",
-            "img": "./img/cardapio/burguers/le-big-matt-kit-for-6.1ddae6e382bb3218eeb0fd5247de115a.jpg",
-            "name": "Emmy Squared",
-            "dsc": "Le Big Matt Burger Kit for 6",
-            "price": 99
+            "id": "6-lou-malnatis-deep-dish-pizzas",
+            "img": "https://images.tcdn.com.br/img/img_prod/1282640/salame_lombo_defumado_vila_caipira_430g_217_4_95c9df01536b5c3f1db759658b24868b.jpg",
+            "name": "Salame Lombo Defumado Vila Caipira 430g",
+            "dsc": "Salame Lombo Defumado Vila Caipira 430g",
+            "price": 35
         },
-        {
+        /* {
             "id": "shake-shack-shackburger-16-pack",
             "img": "./img/cardapio/burguers/shake-shack-shackburger-16-pack.316f8b09144db65931ea29e34869287a.jpg",
             "name": "Shake Shack",
@@ -169,8 +169,8 @@ var MENU = {
             "name": "Gramercy Tavern",
             "dsc": "Gramercy Tavern Burger + Kielbasa Combo",
             "price": 149
-        }
-    ], */
+        } */
+    ], 
     "sobremesas": [
         {
             "id": "15259-german-chocolate-killer-brownie-tin-pack",
@@ -193,14 +193,14 @@ var MENU = {
             "dsc": "Goiabada Cascão Cremosa Zélia Light 400g | Artesanal",
             "price": 43
         },
-       /*  {
+         {
             "id": "sea-salted-caramel-swirl-cheesecake",
-            "img": "./img/cardapio/sobremesas/sea-salted-caramel-swirl-cheesecake.e2825335433fb7a272a5d77649a6849e.jpg",
-            "name": "Cotton Blues Cheesecake Company",
-            "dsc": "Sea-Salted Caramel Swirl Cheesecake",
-            "price": 65
+            "img": "https://images.tcdn.com.br/img/img_prod/1282640/rapadura_tradicional_600g_391_1_1842d970159db2eb75d97859aba69c5d.jpg",
+            "name": "Rapadura Tradicional 600g",
+            "dsc": "Rapadura Tradicional 600g",
+            "price": 23
         },
-        {
+        /* {
             "id": "brooklyn-blackout-cookie-brownie-combo-pack-2-tins",
             "img": "./img/cardapio/sobremesas/brooklyn-blackout-cookie-brownie-combo-pack-2-tins.d8805325baf6b23b4f01d119dc4531a7.jpg",
             "name": "Brooklyn Blackout Company",
@@ -279,14 +279,14 @@ var MENU = {
             "dsc": "Café Canasgeado Serra da Canastra 500g - Moído",
             "price": 60
         },
-        /* {
-            "id": "new-orleans-hurricane-mix",
-            "img": "./img/cardapio/bebidas/new-orleans-hurricane-mix.4613584fc65cb0787024dd24d2a8f4b3.jpg",
-            "name": "Franco's Hurricane Mix",
-            "dsc": "New Orleans Hurricane Mix",
-            "price": 39
-        },
         {
+            "id": "new-orleans-hurricane-mix",
+            "img": "https://images.tcdn.com.br/img/img_prod/1282640/licor_de_doce_de_leite_vitoriano_500ml_393_1_76516084b8e1c2e36654ed00846fec9e.jpg",
+            "name": "Licor de Doce de Leite Vitoriano 500ml",
+            "dsc": "Licor de Doce de Leite Vitoriano 500ml",
+            "price": 70
+        },
+        /* {
             "id": "margarita-mix",
             "img": "./img/cardapio/bebidas/margarita-mix.bd48a000d589d3147b14790af3c33fcd.jpg",
             "name": "Johnny Sanchez",
